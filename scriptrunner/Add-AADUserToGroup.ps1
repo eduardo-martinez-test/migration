@@ -77,7 +77,7 @@ foreach($group in $groups){
     if($null -eq $AADgroup){
         $Out+= "`nGroup $group NOT FOUND"
     } else{
-        if ($group -ne "a-AAD-NOE-Cloudinary-User"){ #TEMPORARY ONLY ALLOW CLOUDINARY GROUP
+        if ($group -ne "Cloudinary-User"){ #TEMPORARY ONLY ALLOW CLOUDINARY GROUP
             $Out+= "`nGroup $group currently not supported by script."
         }
     }

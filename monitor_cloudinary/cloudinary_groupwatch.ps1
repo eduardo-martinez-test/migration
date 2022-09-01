@@ -1,8 +1,8 @@
 [string[]]$groupWatched = "a-noe-Cloudinary-user"
 #TEST
-$API_KEY = 'a73f06a3e05b5b9ee4bc3403997006'
-$API_SECRET = 'XTzDwQL1wISKIyjdJ-m1p8rDwDA'
-$ACCOUNT_ID = '4dee283b-b1a7-46c1-8841-c8e1e046c956'
+$API_KEY = 'XXX'
+$API_SECRET = 'XXX'
+$ACCOUNT_ID = 'XXXX'
 
 $secpasswd = ConvertTo-SecureString $API_SECRET -AsPlainText -Force
 $credential = New-Object System.Management.Automation.PSCredential($API_KEY, $secpasswd)

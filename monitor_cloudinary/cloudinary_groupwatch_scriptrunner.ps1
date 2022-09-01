@@ -4,7 +4,7 @@
     
     .DESCRIPTION
     Checks if there has been any change on Cloudinary AD group (a-noe-Cloudinary-user) and updates the cloudinary account accordingly.
-    
+     changes
     User removed from AD group or disabled (previous run enabled):
         Disable user on Cloudinary
     User added to AD group or enabled (previous run disabled): 

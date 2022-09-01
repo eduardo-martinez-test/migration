@@ -1,4 +1,4 @@
-[string[]]$groupWatched = "a-noe-Cloudinary-user"
+[string[]]$groupWatched = "Cloudinary-user"
 #TEST
 $API_KEY = 'XXX'
 $API_SECRET = 'XXX'

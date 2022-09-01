@@ -6,7 +6,7 @@
     Get list of distribution lists and shared mailboxes a user is part of
     
     .PARAMETER Credentials
-        [user] AD username to check (eg: DEKULDAR)
+        [user] AD username to check (eg: )
 
 #>
 

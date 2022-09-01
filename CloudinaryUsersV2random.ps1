@@ -1,6 +1,6 @@
 <#
     .SYNOPSIS
-    Checks if there has been any change on Cloudinary AD group (a-noe-Cloudinary-user) and updates the cloudinary account accordingly:
+    Checks if there has been any change on Cloudinary AD group () and updates the cloudinary account accordingly:
     
     .DESCRIPTION
 
@@ -37,7 +37,7 @@ $ACCOUNT_ID = $Environment.GetNetworkCredential().Password
 $credential = $APICredentials
 
 
-[string[]]$groupWatched = "a-noe-Cloudinary-user"
+[string[]]$groupWatched = "Cloudinary-user"
 
 
 $global:result = ""
